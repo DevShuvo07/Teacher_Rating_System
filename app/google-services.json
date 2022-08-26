@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "762316792252",
+    "firebase_url": "https://teacher-rating-system.firebaseio.com",
+    "project_id": "teacher-rating-system",
+    "storage_bucket": "teacher-rating-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762316792252:android:9d6269939c782506",
+        "android_client_info": {
+          "package_name": "com.example.teacher_rating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762316792252-mb5bf6hj1ad0gm0fcbne5lacc00t82j2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teacher_rating",
+            "certificate_hash": "e4e1da0400b09ae709921ef003f54a5446c49dac"
+          }
+        },
+        {
+          "client_id": "762316792252-djflba2egnl7qfpinrd1t4rsqplm3rnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArFUTc-MnbB2XwS6veu5pPwk0EkVwDgf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762316792252-djflba2egnl7qfpinrd1t4rsqplm3rnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

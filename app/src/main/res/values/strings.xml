@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Teacher_Rating</string>
+    <string name="UserName">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="not_registered">Not_Registered</string>
+    <string name="register">Register</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile  Number</string>
+    <string name="registration">Registration</string>
+    <string name="already_registered">Already Registered</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="student_id">Student Id</string>
+    <string name="not_register">Don\'t have any account?</string>
+    <string name="account">Have an account?</string>
+    <string name="update">Update</string>
+    <string name="name1">Name :</string>
+    <string name="email1">Email :</string>
+    <string name="mobile">Mobile Number :</string>
+    <string name="password1">Password :</string>
+    <string name="Arunavo_dey">Arunavo Dey</string>
+    <string name="here">Here</string>
+    <string name="add_teacher">Add Teacher</string>
+    <string name="designation">Designation</string>
+    <string name="room">Room No</string>
+    <string name="faculty_Code">Faculty Code</string>
+    <string name="admin_login">Admin Login</string>
+</resources>

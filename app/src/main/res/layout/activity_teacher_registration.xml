@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    tools:context=".Teacher_registration"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/logo1"
+        android:id="@+id/profileImage"/>
+
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:hint="@string/name" />
+    <EditText
+        android:id="@+id/edit_text_designation"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:hint="@string/designation" />
+    <EditText
+        android:id="@+id/edittext_room"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:hint="@string/room" />
+    <EditText
+        android:id="@+id/edittext_faculty_code"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:hint="@string/faculty_Code"/>
+    <EditText
+        android:id="@+id/edittext_Email"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:hint="@string/email"/>
+    <Button
+        android:id="@+id/button_Registration"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="#626d5c"
+        android:textColor="#57c5ff"
+        android:text="@string/add_teacher" />
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/progressbarID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/drawer"
+    tools:context=".AdminActivity"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:gravity="top"
+    android:background="@drawable/background1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_teacher" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:text="Welcome to teacher rating app"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#c42b27"
+        android:textDirection="locale"
+        android:textSize="20dp"
+
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button_addteacher"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#626d5c"
+        android:text="@string/add_teacher"
+        android:textColor="#57c5ff" />
+
+
+</LinearLayout>

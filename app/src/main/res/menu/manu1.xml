@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="DashBoard" android:id="@+id/DashboardId" />
+    <item android:title="Teacher List" android:id="@+id/Teacher_list" />
+    <item android:title="Sign Out" android:id="@+id/SignOutMenuId" />
+    <item android:title="Exit" android:id="@+id/exit" />
+
+</menu>

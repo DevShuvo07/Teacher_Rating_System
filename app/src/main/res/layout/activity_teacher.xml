@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    tools:context=".teacher">
+
+    <Button
+        android:id="@+id/button_sir1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#6d5c38"
+        android:paddingLeft="15dp"
+        android:drawableLeft="@drawable/arunavodeysir"
+        android:text="@string/Arunavo_dey"
+        android:textColor="#57c5ff" />
+
+</LinearLayout>
